@@ -1,0 +1,28 @@
+languages:
+  - item: JavaScript (ES6)
+  - item: HTML
+  - item: CSS/Sass
+  - item: Ruby
+  - item: C
+  - item: PHP
+  - item: SQL
+
+frameworks:
+  - item: React
+  - item: Ruby On Rails
+  - item: CodeIgniter
+  - item: Tailwind
+
+tools:
+  - item: Bash
+  - item: Git & Github
+  - item: Gulp & Grunt
+  - item: Wordpress
+  - item: Docker
+  - item: Redis
+
+design:
+  - item: Figma / Prototyping
+  - item: Agile Methodologies
+  - item: SEO Audits
+  - item: Documentation
