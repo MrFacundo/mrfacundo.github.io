@@ -3,9 +3,9 @@ languages:
   - item: HTML
   - item: CSS/Sass
   - item: Ruby
+  - item: SQL
   - item: C
   - item: PHP
-  - item: SQL
 
 frameworks:
   - item: React
@@ -14,15 +14,15 @@ frameworks:
   - item: Tailwind
 
 tools:
-  - item: Bash
   - item: Git & Github
-  - item: Gulp & Grunt
-  - item: Wordpress
   - item: Docker
   - item: Redis
+  - item: Linux
+  - item: Wordpress
+  - item: Gulp & Grunt
 
 design:
   - item: Figma / Prototyping
   - item: Agile Methodologies
-  - item: SEO Audits
+  - item: SEO
   - item: Documentation
