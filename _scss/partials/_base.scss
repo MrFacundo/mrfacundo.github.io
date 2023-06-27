@@ -111,13 +111,14 @@ strong {
   }
   &__title {
     flex-shrink: 0;
-    width: 200px;
+    width: 220px;
     margin-right: 70px;
     color: $blue;
     text-transform: uppercase;
     text-align: right;
     font-weight: 700;
     letter-spacing: 2px;
+    font-size: 1.1rem;
     @include desktop {
       margin-right: 50px;
     }
@@ -131,7 +132,7 @@ strong {
   }
   &__content {
     font-weight: 300;
-    font-size: 1rem;
+    font-size: 1.1rem;
     width: 100%;
     max-width: 650px;
     @include tablet {

@@ -1,19 +1,19 @@
 {
-  "name": "brittanychiang.com",
+  "name": "mrfacundo.github.io",
   "version": "0.0.0",
-  "description": "Design-minded front-end software engineer focused on building beautiful interfaces and experiences",
+  "description": "Front-end web developer building engaging digital experiences",
   "repository": {
     "type": "git",
-    "url": "https://github.com/bchiang7/bchiang7.github.io"
+    "url": "https://github.com/MrFacundo/mrfacundo.github.io"
   },
-  "homepage": "https://github.com/bchiang7/bchiang7.github.io",
+  "homepage": "https://github.com/MrFacundo/mrfacundo.github.io",
   "main": "gulpfile.js",
   "scripts": {
     "start": "gulp serve --watch",
     "build": "gulp build"
   },
   "author": "Facundo Troitero",
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
     "@nuscout/eslint-config": "^0.2.1",
     "browser-sync": "^2.26.7",

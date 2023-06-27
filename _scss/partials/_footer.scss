@@ -14,13 +14,15 @@
   }
   &__copyright {
     font-weight: 700;
+    font-size: 0.8rem;
     width: 200px;
     @include weird-medium {
       width: auto;
       text-align: center;
       margin-bottom: 25px;
     }
-    .top, .bottom {
+    .top,
+    .bottom {
       @include weird-medium {
         display: inline-block;
       }

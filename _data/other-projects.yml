@@ -43,7 +43,7 @@
 
 - name: Philosophers 🎓
   url: https://github.com/MrFacundo/42-Philosophers
-  description: An implementation of the dining philosophers in C.
+  description: An implementation of the dining philosophers problem in C.
   used:
     - thing: POSIX Threads
     - thing: Parallel computing

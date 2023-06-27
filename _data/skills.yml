@@ -3,8 +3,8 @@ languages:
   - item: HTML
   - item: CSS/Sass
   - item: Ruby
-  - item: SQL
   - item: C
+  - item: SQL
   - item: PHP
 
 frameworks:
@@ -18,8 +18,8 @@ tools:
   - item: Docker
   - item: Redis
   - item: Linux
-  - item: Wordpress
-  - item: Gulp & Grunt
+  - item: Node
+  - item: WordPress
 
 design:
   - item: Figma / Prototyping
