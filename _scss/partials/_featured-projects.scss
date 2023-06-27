@@ -41,6 +41,9 @@
         }
       }
     }
+    .regular {
+      box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1);
+    }
     @media screen and (min-width: #{$tablet-width}) {
       &.foot11 {
         .mobile {
@@ -63,15 +66,12 @@
           display: none;
         }
       }
-      
     }
     &__pic {
       max-width: 700px;
       overflow: visible;
       margin: 0;
       place-self: end;
-      box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1),
-        0 10px 10px -5px rgba(0, 0, 0, 0.04);
       a {
         display: block;
       }
@@ -85,6 +85,10 @@
         width: 100%;
         max-width: 100%;
         vertical-align: bottom;
+      }
+      transition: transform 0.6s ease-in-out; /* Added transition property */
+      &:hover {
+        transform: scale(1.03);
       }
     }
     &__caption {
