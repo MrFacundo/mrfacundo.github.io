@@ -1,8 +1,8 @@
 # Site settings
 name: Facundo Troitero
 title: Facundo Troitero | Front End Software Engineer
-description: Design-minded front-end software engineer focused on building beautiful interfaces and experiences
-url: https://bchiang7.github.io/
+description: Front-end web developer focused on building engaging digital experiences 
+url: 
 baseurl: ''
 email: ftroitero@gmail.com
 cover: https://bchiang7.github.io/img/og.png
@@ -11,16 +11,10 @@ resume: https://bchiang7.github.io/resume.pdf
 social:
   - title: email
     url: mailto:ftroitero@gmail.com
-  - title: twitter
-    url: https://twitter.com/bchiang7
-  - title: instagram
-    url: https://instagram.com/bchiang7
-  - title: codepen
-    url: http://codepen.io/bchiang7
   - title: github
-    url: https://github.com/bchiang7
+    url: https://github.com/MrFacundo
   - title: linkedin
-    url: https://www.linkedin.com/in/bchiang7
+    url: https://www.linkedin.com/in/facundo-t/
 
 # Build settings
 markdown: kramdown

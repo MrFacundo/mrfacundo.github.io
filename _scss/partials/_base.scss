@@ -96,7 +96,7 @@ strong {
 .section {
   display: flex;
   justify-content: center;
-  padding: 100px 170px;
+  padding: 100px 170px 100px 100px;
   @include thirteen {
     padding: 100px;
   }
