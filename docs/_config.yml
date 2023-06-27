@@ -1,0 +1,39 @@
+# Site settings
+name: Facundo Troitero
+title: Facundo Troitero | Front End Software Engineer
+description: Front-end web developer focused on building engaging digital experiences 
+url: https://ftroitero.github.io
+baseurl: 'ftroitero.github.io'
+email: ftroitero@gmail.com
+cover: https://ftroitero.github.io/img/og.png
+logo: https://ftroitero.github.io/img/emojis/technologist.png
+resume: https://ftroitero.github.io/resume.pdf
+social:
+  - title: email
+    url: mailto:ftroitero@gmail.com
+  - title: github
+    url: https://github.com/MrFacundo
+  - title: linkedin
+    url: https://www.linkedin.com/in/facundo-t/
+
+# Build settings
+markdown: kramdown
+
+exclude:
+  - 'Gemfile'
+  - 'Gemfile.lock'
+  - '*.gemspec'
+  - 'README.md'
+  - 'node_modules'
+  - 'build'
+  - 'gulpfile.js'
+  - 'package.json'
+
+keep_files:
+  - 'CNAME'
+  - '.git'
+  - '.gitignore'
+
+plugins_dir:
+  - jekyll-minifier
+  - jekyll-sitemap
