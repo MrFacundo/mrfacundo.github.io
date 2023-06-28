@@ -19,7 +19,7 @@
 
 - name: Job Search UI 💼
   url: https://github.com/MrFacundo/job-search-ui/
-  description: Built duting a job application provess, this apps fetches job posts data from an API and renders them no the client side using React.
+  description: Built duting a job application process, this app fetches job posts data from an API and renders them on the client side using React.
   used:
     - thing: React
     - thing: Express / REST API
@@ -27,7 +27,7 @@
 
 - name: Video game Quiz 🎓
   url: https://mrfacundo.github.io/vueJS-videogame-quiz/
-  description: A simple quiz App aimed at gaining familiarity with Vue.js
+  description: A simple quiz game app built to gain familiarity with Vue.js
   used:
     - thing: Vue.js
     - thing: Bulma
@@ -45,6 +45,7 @@
   url: https://github.com/MrFacundo/42-Philosophers
   description: An implementation of the dining philosophers problem in C.
   used:
+    - thing: C
     - thing: POSIX Threads
     - thing: Parallel computing
     - thing: Multi-threading
@@ -59,3 +60,12 @@
     - thing: Graphics managment
     - thing: Events
     - thing: Animations
+
+- name: Pipex 🎓
+  url: https://github.com/MrFacundo/42_Pipex
+  description: An emulation of some bash internals in C, namely pipes and redirections. 
+  used:
+    - thing: C
+    - thing: Unix prosesses
+    - thing: System calls
+    - thing: Bash basics

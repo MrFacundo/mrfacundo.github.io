@@ -36,6 +36,9 @@
         .regular {
           display: none;
         }
+        .desktop {
+          display: block;
+        }
         .mobile {
           width: 100%;
         }
@@ -46,11 +49,19 @@
     }
     @media screen and (min-width: #{$tablet-width}) {
       &.foot11 {
+        .desktop {
+          order: 1;
+        }
         .mobile {
           margin-left: -116px;
           margin-bottom: -24px;
           width: 56%;
+          order: 2;
         }
+        .project__caption {
+          order: 3;
+        }
+
       }
       &.let {
         .desktop {
@@ -62,7 +73,7 @@
         }
       }
       &.starmag {
-        .mobile {
+        .mobile, .desktop {
           display: none;
         }
       }
