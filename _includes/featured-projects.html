@@ -4,34 +4,13 @@
     {% for project in site.data.featured %}
     <div class="project {{ project.classname }}">
       {% if project.mobile_pic %}
-      <figure class="project__pic mobile">
-        <a href="{{ project.url }}" aria-label="Visit {{ project.name }}" target="_blank">
-          <picture>
-            <source srcset="{{ site.baseurl }}/img/featured/{{ project.mobile_pic }}.webp" type="image/webp">
-            <img src="{{ site.baseurl }}/img/featured/{{ project.mobile_pic }}.png" alt="" />
-          </picture>
-        </a>
-      </figure>
+      {% include _figure.html project=project picClass="mobile" picName=project.mobile_pic %}
       {% endif %}
       {% if project.desktop_pic %}
-      <figure class="project__pic desktop">
-        <a href="{{ project.url }}" aria-label="Visit {{ project.name }}" target="_blank">
-          <picture>
-            <source srcset="{{ site.baseurl }}/img/featured/{{ project.desktop_pic }}.webp" type="image/webp">
-            <img src="{{ site.baseurl }}/img/featured/{{ project.desktop_pic }}.png" alt="" />
-          </picture>
-        </a>
-      </figure>
+      {% include _figure.html project=project picClass="desktop" picName=project.desktop_pic %}
       {% endif %}
       {% if project.regular_pic %}
-      <figure class="project__pic regular">
-        <a href="{{ project.url }}" aria-label="Visit {{ project.name }}" target="_blank">
-          <picture>
-            <source srcset="{{ site.baseurl }}/img/featured/{{ project.regular_pic }}.webp" type="image/webp">
-            <img src="{{ site.baseurl }}/img/featured/{{ project.regular_pic }}.png" alt="" />
-          </picture>
-        </a>
-      </figure>
+      {% include _figure.html project=project picClass="regular" picName=project.regular_pic %}
       {% endif %}
       <figcaption class="project__caption">
         <div class="project__name">
@@ -43,114 +22,3 @@
     {% endfor %}
   </div>
 </section>
-
-
-<!-- <section class="section featured-projects">
-  <div class="section__title">Featured Projects</div>
-  <div class="section__content">
-    <div class="project foot11">
-      <figure class="project__pic desktop">
-        <a href="https://foot11.com/" aria-label="Visit Foot11" target="_blank">
-          <picture>
-            <source srcset="{{site.baseurl}}/img/featured/foot11/foot11_d.webp" type="image/webp">
-            <img src="{{site.baseurl}}/img/featured/foot11/foot11_d.png" alt=""/>
-          </picture>
-        </a>
-      </figure>
-      <figure class="project__pic mobile">
-        <a href="https://foot11.com/" aria-label="Visit Foot11" target="_blank">
-          <picture>
-            <source srcset="{{site.baseurl}}/img/featured/foot11/foot11_m.webp" type="image/webp">
-            <img src="{{site.baseurl}}/img/featured/foot11/foot11_m.png" alt="" />
-          </picture>
-        </a>
-      </figure>
-      <figcaption class="project__caption">
-        <div class="project__name">
-          <a href="https://foot11.com/" aria-label="Visit Foot11" target="_blank">Foot11</a>
-        </div>
-        <p>A football news website. Its content is created and stored via a headless CMS and retrieved by a front-end
-          built on a custom PHP framework.
-          <b>My role:</b> code optimization, implementing and mantaining front-end features and
-          components. WordPress themes and plug-in creation.
-        </p>
-      </figcaption>
-    </div>
-
-    <div class="project starmag">
-      <figure class="project__pic regular">
-        <a href="https://www.starmag.com/" aria-label="Visit Starmag" target="_blank">
-          <picture>
-            <source srcset="{{site.baseurl}}/img/featured/starmag/starmag.webp" type="image/webp">
-            <img src="{{site.baseurl}}/img/featured/starmag/starmag.jpg" alt="" />
-          </picture>
-        </a>
-      </figure>
-      <figure class="project__pic mobile">
-        <a href="https://www.starmag.com/" aria-label="Visit Starmag" target="_blank">
-          <picture>
-            <source srcset="{{site.baseurl}}/img/featured/starmag/starmag_d.webp" type="image/webp">
-            <img src="{{site.baseurl}}/img/featured/starmag/starmag_d.png" alt="" />
-          </picture>
-        </a>
-      </figure>
-      <figcaption class="project__caption">
-        <div class="project__name">
-          <a href="https://www.starmag.com/" aria-label="Visit Starmag" target="_blank">Starmag</a>
-        </div>
-        <p>An entertainment news website. <b>I handled</b> SEO, implementing and mantaining front-end
-          features
-          and components and project documentation.</p>
-      </figcaption>
-    </div>
-
-    <div class="project let">
-      <figure class="project__pic mobile">
-        <a href="https://lisboaemtango.pt/" aria-label="Visit Lisboa em Tango" target="_blank">
-          <picture>
-            <source srcset="{{site.baseurl}}/img/featured/let/let_m.webp" type="image/webp">
-            <img src="{{site.baseurl}}/img/featured/let/let_m.png" alt="" />
-          </picture>
-        </a>
-      </figure>
-      <figure class="project__pic desktop">
-        <a href="https://lisboaemtango.pt/" aria-label="Visit Lisboa em Tango" target="_blank">
-          <picture>
-            <source srcset="{{site.baseurl}}/img/featured/let/let_d.webp" type="image/webp">
-            <img src="{{site.baseurl}}/img/featured/let/let_d.png" alt="" />
-          </picture>
-        </a>
-      </figure>
-      <figcaption class="project__caption">
-        <div class="project__name">
-          <a href="https://lisboaemtango.pt/" aria-label="Visit Lisboa em Tango" target="_blank">Lisboa em Tango</a>
-        </div>
-        <p>A one-page website designed for a tango dancing school, built with React, Tailwind and Framer.
-          <b>My role:</b> Research, branding, prototyping and development. New challenges included implementing
-          animations, multi language functionality and email marketing integration.
-        </p>
-      </figcaption>
-    </div>
-    <div class="project metodo">
-      <figure class="project__pic regular">
-        <a href="https://maegatsbyportfoliomain48188.gatsbyjs.io/en/" aria-label="Visit Assisted Healing Method" target="_blank">
-          <picture>
-            <source srcset="{{site.baseurl}}/img/featured/metodo/msa_d.webp" type="image/webp">
-            <img src="{{site.baseurl}}/img/featured/metodo/msa_d.jpg" alt=""/>
-          </picture>
-        </a>
-      </figure>
-      <figcaption class="project__caption">
-        <div class="project__name">
-          <a href="https://maegatsbyportfoliomain48188.gatsbyjs.io/en/" aria-label="Visit Assisted Healing Method" target="_blank">Assisted Healing Method</a>
-        </div>
-        <p>
-          A single-page multilanguaje portfolio designed for a counselors, built with Gatsby and GSAP. <b>I
-            took care of</b> branding, prototyping, development, SEO and manteinance.
-        </p>
-      </figcaption>
-    </div>
-  </div>
-
-  </div>
-</section> -->

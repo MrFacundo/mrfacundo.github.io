@@ -1,0 +1,8 @@
+<figure class="project__pic {{ include.picClass }}">
+	<a href="{{ include.project.url }}" aria-label="Visit {{ include.project.name }}" target="_blank">
+	  <picture>
+		<source srcset="{{ site.baseurl }}/img/featured/{{ include.picName }}.webp" type="image/webp">
+		<img src="{{ site.baseurl }}/img/featured/{{ include.picName }}.png" alt="" />
+	  </picture>
+	</a>
+  </figure>
