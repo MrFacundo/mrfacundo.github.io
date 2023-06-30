@@ -71,10 +71,12 @@
     - thing: Bash basics
 
 - name: This portfolio website 💼
-  description: You made it this far? That's great. The website you're currently on is built with Jekyll and deployed with Github Actions.
+  url: https://github.com/MrFacundo/mrfacundo.github.io
+  description: The website you're currently on was built and deployed with Jekyll and GitHub Actions. Glad you made it this far.
   used:
-    - thing: Ruby
     - thing: Jekyll
+    - thing: Ruby
+    - thing: Liquid
     - thing: Github Actions
     - thing: SCSS
     - thing: Javascript

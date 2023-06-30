@@ -13,6 +13,10 @@
     }
     &__company {
       font-weight: 700;
+      span {
+        margin-bottom: 20px;
+        color: $off-white;
+      }
     }
     &__time {
       font-size: 0.9rem;

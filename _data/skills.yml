@@ -1,28 +1,32 @@
-languages:
-  - item: JavaScript (ES6)
-  - item: HTML
-  - item: CSS/Sass
-  - item: Ruby
-  - item: C
-  - item: SQL
-  - item: PHP
+- label: Languages
+  items:
+    - JavaScript (ES6)
+    - HTML
+    - CSS/Sass
+    - Ruby
+    - C
+    - SQL
+    - PHP
 
-frameworks:
-  - item: React
-  - item: Ruby On Rails
-  - item: CodeIgniter
-  - item: Tailwind
+- label: Frameworks / Libraries
+  items:
+    - React
+    - Ruby On Rails
+    - CodeIgniter
+    - Tailwind
 
-tools:
-  - item: Git & Github
-  - item: Docker
-  - item: Redis
-  - item: Linux
-  - item: Node
-  - item: WordPress
+- label: Tools
+  items:
+    - Git & Github
+    - Docker
+    - Redis
+    - Linux
+    - Node
+    - WordPress
 
-design:
-  - item: Agile Methodologies
-  - item: Figma / Prototyping
-  - item: SEO
-  - item: Documentation
+- label: Other
+  items:
+    - Agile Methodologies
+    - Figma / Prototyping
+    - SEO
+    - Documentation

@@ -11,4 +11,4 @@
 
 ### Build & deploy
 
-GitHub Actions magically builds and deploys on every commit to `main` branch 🤷‍♀️.
+GitHub Actions magically builds and deploys on every commit to `main` 🤷‍♀️.
