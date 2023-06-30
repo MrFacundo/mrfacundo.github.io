@@ -6,7 +6,9 @@ $(function() {
   const toggle = document.getElementById('toggle');
   const input = document.getElementById('switch');
 
-  if (night) {
+  const prefersDarkMode = () => window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+
+  if (prefersDarkMode() || night ) {
     input.checked = true;
     body.classList.add('night');
   }

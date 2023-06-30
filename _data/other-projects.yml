@@ -69,3 +69,12 @@
     - thing: Unix prosesses
     - thing: System calls
     - thing: Bash basics
+
+- name: This portfolio website 💼
+  description: You made it this far? That's great. The website you're currently on is built with Jekyll and deployed with Github Actions.
+  used:
+    - thing: Ruby
+    - thing: Jekyll
+    - thing: Github Actions
+    - thing: SCSS
+    - thing: Javascript
