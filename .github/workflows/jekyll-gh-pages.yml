@@ -33,6 +33,8 @@ jobs:
       - name: Setup Ruby and Bundler
         run: |
           gem install --user-install bundler:2.4.15
+          echo 'export PATH="$HOME/.local/share/gem/ruby/3.0.0/bin:$PATH"' >> $HOME/.bashrc
+          source $HOME/.bashrc
           bundle config set frozen false
           bundle install --jobs 4 --retry 3
       - name: Setup Pages
