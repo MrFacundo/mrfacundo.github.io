@@ -47,9 +47,9 @@
   used:
     - thing: C
     - thing: POSIX Threads
-    - thing: Parallel computing
+    - thing: Parallel Computing
     - thing: Multi-threading
-    - thing: Mutexes and semaphores
+    - thing: Mutexes and Semaphores
 
 - name: So Long 🎓
   url: https://github.com/MrFacundo/42_So_Long
@@ -57,7 +57,7 @@
   used:
     - thing: C
     - thing: MiniLibX
-    - thing: Graphics managment
+    - thing: Graphics Managment
     - thing: Events
     - thing: Animations
 
@@ -66,17 +66,17 @@
   description: An emulation of some bash internals in C, namely pipes and redirections. 
   used:
     - thing: C
-    - thing: Unix prosesses
-    - thing: System calls
-    - thing: Bash basics
+    - thing: Unix Prosesses
+    - thing: System Calls
+    - thing: Bash Basics
 
 - name: This portfolio website 💼
   url: https://github.com/MrFacundo/mrfacundo.github.io
-  description: The website you're currently on was built and deployed with Jekyll and GitHub Actions. Glad you made it this far.
+  description: Glad you made it this far! The website you're currently on was built with Jekyll and deployed with GitHub Actions and Github Pages.
   used:
     - thing: Jekyll
     - thing: Ruby
     - thing: Liquid
-    - thing: Github Actions
+    - thing: GitHub Actions
     - thing: SCSS
     - thing: Javascript
