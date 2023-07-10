@@ -6,11 +6,11 @@
 
 ## Getting Started
 
-1.  (Optional) Pray to the deity of your choice
+1.  (Optional) Pray to deity of your choice
 2.  `bundle install`
 3.  `npm i`
 4.  `npm start`
 
 ### Build & deploy
 
-God willing [this workflow](/.github/workflows/jekyll-gh-pages.yml) will build and deploy on every commit to `main`.
+[This workflow](/.github/workflows/jekyll-gh-pages.yml) will build and deploy on every commit to `main`, inshallah.
