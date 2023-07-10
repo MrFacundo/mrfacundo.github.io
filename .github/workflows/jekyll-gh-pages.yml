@@ -32,7 +32,7 @@ jobs:
         uses: actions/checkout@v3
       - name: Setup Ruby and Bundler
         run: |
-          gem install bundler:2.4.15
+          gem install --user-install bundler:2.4.15
           bundle config set frozen false
           bundle install --jobs 4 --retry 3
       - name: Setup Pages
