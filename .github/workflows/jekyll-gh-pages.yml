@@ -30,22 +30,13 @@ jobs:
         run: sudo apt-get install libvips-tools
       - name: Checkout
         uses: actions/checkout@v3
-      - name: Setup Ruby
-        id: setup-ruby
-        uses: ruby/setup-ruby@v1
-        with:
-          ruby-version: 2.7.0
-          bundler-cache: true # runs 'bundle install' and caches installed gems automatically
-          cache-version: 0 # Increment this number if you need to re-download cached gems
+      - name: Setup Ruby and Bundler
+        run: |
+          gem install bundler:2.4.15
+          bundle config set frozen false
+          bundle install --jobs 4 --retry 3
       - name: Setup Pages
         uses: actions/configure-pages@v3
-      - name: Disable Bundler frozen mode
-        run: |
-          if [[ "${{ steps.setup-ruby.outcome }}" == "success" ]]; then
-            bundle config set frozen false
-          fi
-      - name: Bundle install
-        run: bundle install --no-flags --path vendor/bundle --jobs 4 --retry 2
       - name: Build with Jekyll
         uses: actions/jekyll-build-pages@v1
         with:
