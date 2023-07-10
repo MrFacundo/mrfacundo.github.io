@@ -52,17 +52,10 @@ jobs:
   deploy:
     environment:
       name: github-pages
-      url: ${{ steps.pages.outputs.base_url }}
+      url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
     needs: build
     steps:
-      - name: Download artifact
-        uses: actions/download-artifact@v2
-        with:
-          name: Jekyll site
-          path: _site
       - name: Deploy to GitHub Pages
-        uses: JamesIves/github-pages-deploy-action@4.1.1
-        with:
-          branch: gh-pages
-          folder: _site
+        id: deployment
+        uses: actions/deploy-pages@v2
