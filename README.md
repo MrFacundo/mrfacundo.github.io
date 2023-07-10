@@ -4,11 +4,11 @@
 
 Minimalistic Jekyll app for personal websites and portfolios.
 
-- Nice and simple.
 - Responsive design.
+- Responsive images provided by [this gem](https://github.com/rbuchberger/jekyll_picture_tag).
 - Dark / light theming.
-- Responsive images using [this thing](https://github.com/rbuchberger/jekyll_picture_tag).
 - Optimized for Lighthouse performance.
+
 ## Dependencies
 
 - [Gulp](https://gulpjs.com/docs/en/getting-started/quick-start)
