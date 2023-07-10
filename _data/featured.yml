@@ -1,32 +1,40 @@
 - name: Foot11
   url: https://foot11.com/
-  mobile_pic: foot11/foot11_m
-  desktop_pic: foot11/foot11_d
-  description: A football news website. Its content is created and stored via a headless CMS and retrieved by a front-end
+  mockup_mobile: foot11/foot11_m
+  mockup_desktop: foot11/foot11_d
+  mobile_img: foot11/foot11_mobile
+  description:
+    A football news website. Its content is created and stored via a headless CMS and retrieved by a front-end
     built on a custom PHP framework. <b>My role:</b> code optimization, implementing and maintaining front-end features and
     components. WordPress themes and plugin creation.
   classname: foot11
 
 - name: Starmag
   url: https://www.starmag.com/
-  desktop_pic: starmag/starmag_d
-  regular_pic: starmag/starmag
-  description: An entertainment news website. <b>I handled</b> SEO, implementing and maintaining front-end
+  mockup_desktop: starmag/starmag_d
+  mockup_none: starmag/starmag
+  mobile_img: starmag/starmag_mobile
+  description:
+    An entertainment news website. <b>I handled</b> SEO, implementing and maintaining front-end
     features and components and project documentation.
   classname: starmag
 
 - name: Lisboa em Tango
   url: https://lisboaemtango.pt/
-  mobile_pic: let/let_m
-  desktop_pic: let/let_d
-  description: A one-page website designed for a tango dancing school, built with React, Tailwind, and Framer. <b>My role:</b> 
+  mockup_mobile: let/let_m
+  mockup_desktop: let/let_d
+  mobile_img: let/let_mobile
+  description:
+    A one-page website designed for a tango dancing school, built with React, Tailwind, and Framer. <b>My role:</b>
     Research, branding, prototyping, and development. New challenges included implementing
     animations, multi-language functionality, and email marketing integration.
   classname: let
 
 - name: Assisted Healing Method
   url: https://maegatsbyportfoliomain48188.gatsbyjs.io/en/
-  regular_pic: metodo/msa_d
-  description: A single-page multilingual portfolio designed for counselors, built with Gatsby and GSAP. <b>I
+  mockup_none: msa/msa_d
+  mobile_img: msa/msa_mobile
+  description:
+    A single-page multilingual portfolio designed for counselors, built with Gatsby and GSAP. <b>I
     took care of</b> branding, prototyping, development, SEO, and maintenance.
   classname: msa

@@ -1,0 +1,6 @@
+media_queries:
+    mobile: 'max-width: 480px'
+    tablet: 'max-width: 768px'
+    desktop: 'max-width: 1024px'
+    thirteen-inch: 'max-width: 1280px'
+    fifteen-inch: 'max-width: 1440px'

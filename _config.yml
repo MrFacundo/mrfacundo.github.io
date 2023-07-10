@@ -37,3 +37,8 @@ keep_files:
 plugins_dir:
   - jekyll-minifier
   - jekyll-sitemap
+
+picture:
+  source: img/
+  output: resized_images/
+  suppress_warnings: true

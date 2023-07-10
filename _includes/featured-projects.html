@@ -3,14 +3,14 @@
   <div class="section__content">
     {% for project in site.data.featured %}
     <div class="project {{ project.classname }}">
-      {% if project.mobile_pic %}
-      {% include _figure.html project=project picClass="mobile" picName=project.mobile_pic %}
+      {% if project.mockup_mobile %}
+      {% include _figure.html project=project picClass="mobile" picName=project.mockup_mobile %}
       {% endif %}
-      {% if project.desktop_pic %}
-      {% include _figure.html project=project picClass="desktop" picName=project.desktop_pic %}
+      {% if project.mockup_desktop %}
+      {% include _figure.html project=project picClass="desktop" picName=project.mockup_desktop %}
       {% endif %}
-      {% if project.regular_pic %}
-      {% include _figure.html project=project picClass="regular" picName=project.regular_pic %}
+      {% if project.mockup_none %}
+      {% include _figure.html project=project picClass="regular" picName=project.mockup_none %}
       {% endif %}
       <figcaption class="project__caption">
         <div class="project__name">
