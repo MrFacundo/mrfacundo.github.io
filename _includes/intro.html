@@ -19,7 +19,7 @@
     {% for link in site.social %}
     {% if forloop.index > 1 %}
     <a href="{{ link.url }}" target="_blank" title="{{ link.title }}">
-      <img height="30" width="30" src="{{ site.baseurl }}/img/social/{{ link.title }}.svg" alt="{{ link.title }}">
+      <img height="30" width="30" src="/img/social/{{ link.title }}.svg" alt="{{ link.title }}">
     </a>
     {% endif %}
     {% endfor %}
