@@ -2,13 +2,15 @@
 ## Dependencies
 
 - [Gulp](https://gulpjs.com/)
+- [libvips](https://github.com/libvips/libvips/wiki)
 
 ## Getting Started
 
-1.  `gem install jekyll sass bundler jekyll-minifier jekyll-sitemap`
-2.  `npm i`
-3.  `npm start`
+1.  (Optional) Pray to the deity of your choice
+2.  `bundle install`
+3.  `npm i`
+4.  `npm start`
 
 ### Build & deploy
 
-GitHub Actions magically builds and deploys on every commit to `main` 🤷‍♀️.
+God willing [this workflow](/.github/workflows/jekyll-gh-pages.yml) will build and deploy on every commit to `main`.
