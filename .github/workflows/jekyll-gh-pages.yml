@@ -45,7 +45,7 @@ jobs:
             bundle config set frozen false
           fi
       - name: Bundle install
-        run: bundle install --path vendor/bundle --jobs 4 --retry 3
+        run: bundle install --no-flags --path vendor/bundle --jobs 4 --retry 2
       - name: Build with Jekyll
         uses: actions/jekyll-build-pages@v1
         with:
