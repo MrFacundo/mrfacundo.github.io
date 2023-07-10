@@ -1,4 +1,14 @@
 ## [Live Site](https://mrfacundo.github.io/)
+
+##
+
+Minimalistic Jekyll app for personal websites and portfolios.
+
+- Nice and simple.
+- Responsive design.
+- Dark / light theming.
+- Responsive images using [this thing](https://github.com/rbuchberger/jekyll_picture_tag).
+- Optimized for Lighthouse performance.
 ## Dependencies
 
 - [Gulp](https://gulpjs.com/docs/en/getting-started/quick-start)
@@ -6,11 +16,10 @@
 
 ## Getting Started
 
-1.  (Optional) Pray to deity of choice
 2.  `bundle install`
 3.  `npm i`
 4.  `npm start`
 
 ### Build & deploy
 
-[This workflow](/.github/workflows/jekyll-gh-pages.yml) will build and deploy on every commit to `main`, inshallah.
+Inshallah [this workflow](/.github/workflows/jekyll-gh-pages.yml) will build and deploy on every commit to `main`.
