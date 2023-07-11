@@ -16,9 +16,9 @@ Minimalistic Jekyll app for personal websites and portfolios.
 
 ## Getting Started
 
-2.  `bundle install`
-3.  `npm i`
-4.  `npm start`
+1.  `bundle install`
+2.  `npm i`
+3.  `npm start`
 
 ### Build & deploy
 
