@@ -23,6 +23,7 @@
     "gulp-eslint": "^6.0.0",
     "gulp-imagemin": "6.0.0",
     "gulp-sass": "^5.1.0",
-    "gulp-uglify": "3.0.2"
+    "gulp-uglify": "3.0.2",
+    "sass": "^1.63.6"
   }
 }

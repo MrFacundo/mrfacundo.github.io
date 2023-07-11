@@ -16,7 +16,8 @@
     padding: 70px 50px;
   }
 
-  &__hello, &__tagline {
+  &__hello,
+  &__tagline {
     font-size: 2.5rem;
     @include desktop {
       font-size: 2.25rem;
@@ -33,22 +34,6 @@
     @include tiny-mobile {
       font-size: 1.4rem;
     }
-    .emoji {
-      width: 40px;
-      height: 40px;
-      @include desktop {
-        width: 35px;
-        height: 35px;
-      }
-      @include tablet {
-        width: 30px;
-        height: 30px;
-      }
-      @include small-mobile {
-        width: 25px;
-        height: 25px;
-      }
-    }
   }
   &__hello {
     font-weight: 300;
@@ -59,9 +44,6 @@
     .name {
       font-weight: 700;
     }
-    .technologist {
-      background-image: url('../img/emojis/technologist.png');
-    }
   }
   &__contact {
     font-size: 1.25rem;
@@ -69,17 +51,10 @@
     @include phablet {
       font-size: 1rem;
     }
-    .emoji {
-      &.pointer {
-        background-image: url('../img/emojis/pointright.png');
-        width: 30px;
-        height: 30px;
-        margin: 0 5px;
-        vertical-align: text-bottom;
-        @include phablet {
-          width: 25px;
-          height: 25px;
-        }
+    &:hover {
+      .intro__pointer-emoji {
+        transform: translateX(7px);
+        @include transition;
       }
     }
     .highlight-link {
@@ -95,6 +70,13 @@
         color: $white;
       }
     }
+  }
+  &__pointer-emoji {
+    display:inline-block;
+    padding: 0 10px;
+    font-size: 24px;
+    @include transition;
+
   }
   &__links {
     @include weird-medium {
