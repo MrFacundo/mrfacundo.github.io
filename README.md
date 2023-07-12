@@ -1,16 +1,17 @@
-## [Live Site](https://mrfacundo.github.io/)
+## [Live site](https://mrfacundo.github.io/)
 
 ##
 
-Minimalistic Jekyll app for personal websites and portfolios.
+Minimalist Jekyll app for personal websites and portfolios.
 
 - Responsive design.
-- Responsive images provided by [this gem](https://github.com/rbuchberger/jekyll_picture_tag).
+- Responsive images powered by [this gem](https://github.com/rbuchberger/jekyll_picture_tag).
 - Dark / light theming.
-- Optimized for Lighthouse performance.
+- Optimized Lighthouse performance.
 
 ## Dependencies
 
+- [Sass](https://sass-lang.com/install/#:~:text=You%20can%20install%20Sass%20on,else%20you%20need%20to%20install.)
 - [Gulp](https://gulpjs.com/docs/en/getting-started/quick-start)
 - [libvips](https://github.com/libvips/libvips/wiki)
 
