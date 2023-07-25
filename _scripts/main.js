@@ -6,9 +6,11 @@ $(function() {
   const toggle = document.getElementById('toggle');
   const input = document.getElementById('switch');
 
-  const prefersDarkMode = () => window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+  const prefersDarkMode = () =>
+    window.matchMedia &&
+    window.matchMedia('(prefers-color-scheme: dark)').matches;
 
-  if (prefersDarkMode() || night ) {
+  if (prefersDarkMode() || night) {
     input.checked = true;
     body.classList.add('night');
   }
@@ -30,9 +32,9 @@ $(function() {
     'scroll',
     function() {
       if (window.scrollY > introHeight) {
-        $topButton.fadeIn();
+        $topButton.fadeIn(800);
       } else {
-        $topButton.fadeOut();
+        $topButton.fadeOut(800);
       }
     },
     false
@@ -42,18 +44,18 @@ $(function() {
     $('html, body').animate({ scrollTop: 0 }, 500);
   });
 
-
   window.sr = ScrollReveal({
     reset: false,
-    duration: 600,
+    duration: 800,
+    origin: 'bottom',
+    distance: '3%',
+    opacity: 0,
     easing: 'cubic-bezier(.694,0,.335,1)',
-    scale: 1,
     viewFactor: 0.3,
   });
 
   sr.reveal('.background');
   sr.reveal('.skills');
   sr.reveal('.experience', { viewFactor: 0.2 });
-  sr.reveal('.featured-projects', { viewFactor: 0.1 });
-  sr.reveal('.other-projects', { viewFactor: 0.05 });
+  sr.reveal('.project', { viewFactor: 0.1 });
 });
