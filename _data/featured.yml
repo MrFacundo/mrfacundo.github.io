@@ -31,10 +31,19 @@
   classname: let
 
 - name: Assisted Healing Method
-  url: https://maegatsbyportfoliomain48188.gatsbyjs.io/en/
+  url: https://lucent-custard-0e86fa.netlify.app/
   mockup_none: msa/msa_d
   mobile_img: msa/msa_mobile
   description:
-    A single-page multilingual portfolio designed for counselors, built with Gatsby and GSAP. <b>I
+    A single-page multilingual portfolio designed built with Gatsby and GSAP. <b>I
     took care of</b> branding, prototyping, development, SEO, and maintenance.
   classname: msa
+
+- name: Imaginate Psi (in progress)
+  url: https://mrfacundo.github.io/ImaginatePsi/
+  mockup_desktop: psi/psi_d
+  mockup_mobile: psi/psi_mobile
+  mobile_img: psi/psi_mobile
+  description:
+    A landing page designed for therapy and mental health companing, built with Jekyll, Gulp and SASS. <b>My role:</b> design and development.
+  classname: psi

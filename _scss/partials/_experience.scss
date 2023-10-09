@@ -1,5 +1,11 @@
 .experience {
-  .jobs {
+  &.work {
+    padding-bottom: 0;
+  }
+  &.education {
+    padding-top: 0;
+  }
+    .jobs {
     margin-bottom: 100px;
   }
   .job {

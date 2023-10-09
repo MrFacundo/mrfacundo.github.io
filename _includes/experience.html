@@ -1,4 +1,4 @@
-<section class="section experience">
+<section class="section work experience ">
   <div class="section__title">Experience</div>
   <div class="section__content">
     <div class="jobs">
@@ -7,7 +7,7 @@
         <div class="time-place">
           <div class="job__company">
             {% if job.url %}
-            <a  class="underline-link" href="{{job.url}}" target="_blank">{{job.company}}</a>
+            <a class="underline-link" href="{{job.url}}" target="_blank">{{job.company}}</a>
             {% else %}
             <span>{{job.company}}</span>
             {% endif %}
@@ -17,6 +17,22 @@
         <div class="job__position">{{job.position}}</div>
       </div>
       {% endfor %}
+    </div>
+  </div>
+</section>
+<section class="section education experience ">
+  <div class="section__title">Education</div>
+  <div class="section__content">
+    <div class="jobs">
+      <div class="job">
+        <div class="time-place">
+          <div class="job__company">
+            <a class="underline-link" href="https://www.42lisboa.com/en/" target="_blank">42 Lisbon</a>
+          </div>
+          <div class="job__time">June 2022 - Present</div>
+        </div>
+        <div class="job__position">Software Engeneering</div>
+      </div>
     </div>
     <a href="{{site.resume}}" target="_blank" class="arrow-link">View My Resume</a>
   </div>

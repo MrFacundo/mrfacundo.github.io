@@ -40,6 +40,13 @@
           width: 100%;
         }
       }
+
+      // &.psi {
+      //   .regular {
+      //     margin: 0 auto;
+      //     width: 65%;
+      //   }
+      // }
     }
     .regular {
       box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1);
@@ -58,7 +65,6 @@
         .project__caption {
           order: 3;
         }
-
       }
       &.let {
         .desktop {
@@ -69,8 +75,18 @@
           width: 30%;
         }
       }
+      &.psi {
+        .desktop {
+          margin-left: -61px;
+        }
+        .mobile {
+          margin-bottom: 60px;
+          width: 50%;
+        }
+      }
       &.starmag {
-        .mobile, .desktop {
+        .mobile,
+        .desktop {
           display: none;
         }
       }
