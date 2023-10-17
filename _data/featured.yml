@@ -21,6 +21,7 @@
 
 - name: Lisboa em Tango
   url: https://lisboaemtango.pt/
+  github_url: https://github.com/MrFacundo/landing-page1
   mockup_mobile: let/let_m
   mockup_desktop: let/let_d
   mobile_img: let/let_mobile
@@ -32,6 +33,7 @@
 
 - name: Assisted Healing Method
   url: https://lucent-custard-0e86fa.netlify.app/
+  github_url: https://github.com/MrFacundo/MAE---Gatsby-Portfolio
   mockup_none: msa/msa_d
   mobile_img: msa/msa_mobile
   description:
@@ -39,8 +41,9 @@
     took care of</b> branding, prototyping, development, SEO, and maintenance.
   classname: msa
 
-- name: Imaginate Psi (in progress)
-  url: https://mrfacundo.github.io/ImaginatePsi/
+- name: Imaginate Psi
+  url: https://imaginatepsi.com.ar/
+  github_url: https://github.com/MrFacundo/ImaginatePsi
   mockup_desktop: psi/psi_d
   mockup_mobile: psi/psi_mobile
   mobile_img: psi/psi_mobile

@@ -20,6 +20,13 @@
               target="_blank">{{ project.name }}</a>
         </div>
         <p>{{ project.description }}</p>
+        {% if project.github_url %}
+        <p class="intro__links">
+          <a href="{{ project.github_url }}" target="_blank">
+            <img height="30" width="30" src="/img/social/github.svg" alt="Visit {{ project.name }} GitHub page">
+          </a>
+        </p>
+        {% endif %}
       </figcaption>
     </div>
     {% endfor %}
