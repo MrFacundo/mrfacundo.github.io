@@ -1,37 +1,13 @@
-- name: Secret Chef 💼
-  url: https://github.com/MrFacundo/Who-s-cooking
-  description: Order meal kits from your favourite restaurant. A full-stack application prototype.
+- name: Minishell 🎓
+  url: https://github.com/MrFacundo/42_Minishell
+  description: A CLI shell program that features a set of basic functionalities, including pipes, redirections, variables and builtins. 
   used:
-    - thing: Ruby
-    - thing: Ruby on Rails
-    - thing: Bootstrap
-    - thing: Javascript
-    - thing: ActiveRecord
-
-- name: MERN Shopping Cart 🎓
-  url: https://github.com/MrFacundo/MERN-ecommerce
-  description: A minimal full-stack E-Commerce app, featuring the MERN stack.
-  used:
-    - thing: Mongo Atlas Database
-    - thing: Express
-    - thing: React
-    - thing: Node JS
-
-- name: Job Search UI 💼
-  url: https://github.com/MrFacundo/job-search-ui/
-  description: Built duting a job application process, this app fetches job posts data from an API and renders them on the client side using React.
-  used:
-    - thing: React
-    - thing: Express / REST API
-    - thing: Material UI
-
-- name: Video game Quiz 🎓
-  url: https://mrfacundo.github.io/vueJS-videogame-quiz/
-  description: A simple quiz game app built to gain familiarity with Vue.js
-  used:
-    - thing: Vue.js
-    - thing: Bulma
-    - thing: JavaScript
+    - thing: C
+    - thing: Project Managment
+    - thing: Shell Internals
+    - thing: Parsing Techniques
+    - thing: Syntax Trees
+    - thing: Process Managment
 
 - name: Push Swap 🎓
   url: https://github.com/MrFacundo/42_Push_Swap
@@ -80,3 +56,38 @@
     - thing: GitHub Actions
     - thing: SCSS
     - thing: Javascript
+
+- name: Secret Chef 💼
+  url: https://github.com/MrFacundo/Who-s-cooking
+  description: Order meal kits from your favourite restaurant. A full-stack application prototype.
+  used:
+    - thing: Ruby
+    - thing: Ruby on Rails
+    - thing: Bootstrap
+    - thing: Javascript
+    - thing: ActiveRecord
+
+- name: MERN Shopping Cart 🎓
+  url: https://github.com/MrFacundo/MERN-ecommerce
+  description: A minimal full-stack E-Commerce app, featuring the MERN stack.
+  used:
+    - thing: Mongo Atlas Database
+    - thing: Express
+    - thing: React
+    - thing: Node JS
+
+- name: Video game Quiz 🎓
+  url: https://mrfacundo.github.io/vueJS-videogame-quiz/
+  description: A simple quiz game app built to gain familiarity with Vue.js
+  used:
+    - thing: Vue.js
+    - thing: Bulma
+    - thing: JavaScript
+
+- name: Job Search UI 💼
+  url: https://github.com/MrFacundo/job-search-ui/
+  description: Built duting a job application process, this app fetches job posts data from an API and renders them on the client side using React.
+  used:
+    - thing: React
+    - thing: Express / REST API
+    - thing: Material UI
