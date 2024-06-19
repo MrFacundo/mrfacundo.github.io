@@ -1,7 +1,7 @@
-<section class="section featured-projects">
-  <div class="section__title">Featured Projects</div>
+<section class="section featured">
+  <div class="section__title">Web</div>
   <div class="section__content">
-    {% for project in site.data.featured %}
+    {% for project in site.data.web %}
     <div class="project {{ project.classname }}">
       {% if project.mockup_mobile %}
       {% include _figure.html project=project picClass="mobile" picName=project.mockup_mobile %}

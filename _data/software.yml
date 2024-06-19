@@ -1,0 +1,79 @@
+- name: Webserv 🎓
+  url: https://github.com/dda-cunh/webserv
+  description: Implementation of a a non-blocking HTTP server. It supports GET, POST, and DELETE methods and can serve static files, handle CGI requests, and upload files.
+  used:
+    - thing: C++
+    - thing: HTTP
+    - thing: Non-blocking I/O
+    - thing: CGI
+    - thing: File Upload
+
+- name: Inception 🎓
+  url: https://github.com/MrFacundo/42_Inception
+  description: A multi-service application deployment project, using Docker and Docker-Compose. 
+  used:
+    - thing: Docker
+    - thing: Nginx
+    - thing: MariaDB
+    - thing: WordPress + php-fpm
+    - thing: Adminer
+    - thing: Redis
+    - thing: FTP server
+
+- name: Cub3D 🎓
+  url: https://github.com/alexandremak/42_04-cub3d
+  description: A minimalistic 3D game engine built in C, using the ray-casting technique.
+  used:
+    - thing: C
+    - thing: Graphics programming
+    - thing: Ray-casting
+    - thing: Game development
+    - thing: Graphic algorithms
+
+- name: Minishell 🎓
+  url: https://github.com/MrFacundo/42_Minishell
+  description: A CLI shell program that features a set of basic functionalities, including pipes, redirections, variables and builtins. 
+  used:
+    - thing: C
+    - thing: Project Managment
+    - thing: Shell Internals
+    - thing: Parsing Techniques
+    - thing: Syntax Trees
+    - thing: Process Managment
+
+- name: Push Swap 🎓
+  url: https://github.com/MrFacundo/42_Push_Swap
+  description: A program that sorts a given list of random numbers with a limited set of instructions, using the lowest possible number of actions.
+  used:
+    - thing: C
+    - thing: Sorting Algorithms
+    - thing: Complexity
+
+- name: Philosophers 🎓
+  url: https://github.com/MrFacundo/42-Philosophers
+  description: An implementation of the dining philosophers problem in C.
+  used:
+    - thing: C
+    - thing: POSIX Threads
+    - thing: Parallel Computing
+    - thing: Multi-threading
+    - thing: Mutexes and Semaphores
+
+- name: So Long 🎓
+  url: https://github.com/MrFacundo/42_So_Long
+  description: A very simple 2D graphic game built in C. 
+  used:
+    - thing: C
+    - thing: MiniLibX
+    - thing: Graphics Managment
+    - thing: Events
+    - thing: Animations
+
+- name: Pipex 🎓
+  url: https://github.com/MrFacundo/42_Pipex
+  description: An emulation of some bash internals in C, namely pipes and redirections. 
+  used:
+    - thing: C
+    - thing: Unix Prosesses
+    - thing: System Calls
+    - thing: Bash Basics
