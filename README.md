@@ -1,3 +1,5 @@
+[![Deploy to GH Pages](https://github.com/MrFacundo/mrfacundo.github.io/actions/workflows/jekyll-gh-pages.yml/badge.svg)](https://github.com/MrFacundo/mrfacundo.github.io/actions/workflows/jekyll-gh-pages.yml)
+
 ## [Live site](https://mrfacundo.github.io/)
 
 ##
