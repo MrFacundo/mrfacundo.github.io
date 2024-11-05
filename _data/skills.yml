@@ -1,5 +1,6 @@
 - label: Languages
   items:
+    - Python
     - C
     - C++
     - JavaScript
@@ -11,6 +12,7 @@
 
 - label: Frameworks / Libraries
   items:
+    - Django
     - React
     - Ruby On Rails
     - CodeIgniter
@@ -19,7 +21,7 @@
 
 - label: Tools
   items:
-    - Git & Github
+    - Git & GitHub
     - Docker
     - Redis
     - Linux
