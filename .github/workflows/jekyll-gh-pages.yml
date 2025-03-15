@@ -55,3 +55,4 @@ jobs:
         uses: actions/deploy-pages@v2
         with:
           artifact_name: jekyll-site
+          upload-url: ${{ steps.pages.outputs.upload_url }} 
