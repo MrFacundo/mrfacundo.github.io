@@ -1,5 +1,4 @@
 name: Deploy Jekyll site to Pages
-
 on:
   push:
     branches:
@@ -23,26 +22,36 @@ jobs:
     steps:
       - name: Install JPT's dependencies
         run: sudo apt-get install libvips-tools
+      
       - name: Checkout
         uses: actions/checkout@v3
+      
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
         with:
           ruby-version: 2.7.0
+      
       - name: Install Bundler
         run: gem install bundler -v 2.4.15 --no-document
+      
       - name: Bundle Install
         run: bundle install
+      
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v1
-      - run: bundle exec jekyll build
+      
+      - name: Build Jekyll site
+        run: bundle exec jekyll build
+      
+      - name: List _site directory content
+        run: ls -la _site/
+      
       - name: Upload artifact
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-pages-artifact@v2
         with:
-          name: jekyll-site
           path: _site/
-
+  
   deploy:
     needs: build
     runs-on: ubuntu-latest
@@ -53,5 +62,3 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v2
-        with:
-          artifact_name: jekyll-site
