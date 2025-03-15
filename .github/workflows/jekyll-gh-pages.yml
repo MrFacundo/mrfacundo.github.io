@@ -44,7 +44,7 @@ jobs:
         uses: actions/configure-pages@v1
       - run: bundle exec jekyll build
       - name: Upload artifact
-        uses: actions/upload-pages-artifact@v2
+        uses: actions/upload-artifact@v4
         with:
           name: Jekyll site
           path: _site
