@@ -31,16 +31,6 @@
     <b>animations</b>, <b>multi-language</b> functionality, and email marketing integration.
   classname: let
 
-- name: Assisted Healing Method
-  url: https://lucent-custard-0e86fa.netlify.app/
-  github_url: https://github.com/MrFacundo/MAE---Gatsby-Portfolio
-  mockup_none: msa/msa_d
-  mobile_img: msa/msa_mobile
-  description:
-    A single-page multilingual portfolio designed built with <b>Gatsby</b> and <b>GSAP</b>. I
-    took care of branding, prototyping, development, SEO.
-  classname: msa
-
 - name: Imaginate Psi
   url: https://imaginatepsi.com.ar/
   github_url: https://github.com/MrFacundo/ImaginatePsi

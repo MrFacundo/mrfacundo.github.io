@@ -2,7 +2,7 @@
 
 source "https://rubygems.org"
 
-
+gem 'csv'
 gem 'jekyll'
 gem 'sass'
 gem 'bundler'

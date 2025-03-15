@@ -1,3 +1,14 @@
+- name: Pong 🎓
+  url: https://github.com/MrFacundo/ft_transcendence
+  description: A full-stack application that allows users to play games remotely.
+  used:
+    - thing: Python
+    - thing: Django
+    - thing: PostgreSQL
+    - thing: JavaScript SPA
+    - thing: Rest API
+    - thing: Websockets
+
 - name: Webserv 🎓
   url: https://github.com/dda-cunh/webserv
   description: Implementation of a a non-blocking HTTP server. It supports GET, POST, and DELETE methods and can serve static files, handle CGI requests, and upload files.

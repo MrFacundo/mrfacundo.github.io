@@ -3,12 +3,11 @@
     - Python
     - C
     - C++
+    - Ruby
     - JavaScript
     - HTML
     - CSS/Sass
-    - Ruby
     - PHP
-    - SQL
 
 - label: Frameworks / Libraries
   items:
@@ -21,18 +20,18 @@
 
 - label: Tools
   items:
+    - PostgreSQL 
     - Git & GitHub
     - Docker
     - Redis
     - Linux
-    - Node JS
     - WordPress
 
 - label: Other
   items:
+    - Object Oriented Programming
     - System administration
-    - Networking
+    - Network programming
     - Software Architecture
-    - OOP
     - Agile Methodologies
     - SEO
