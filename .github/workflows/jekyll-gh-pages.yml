@@ -24,7 +24,7 @@ jobs:
         run: sudo apt-get install libvips-tools
       
       - name: Checkout
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
       
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
@@ -39,7 +39,7 @@ jobs:
       
       - name: Setup Pages
         id: pages
-        uses: actions/configure-pages@v1
+        uses: actions/configure-pages@v4
       
       - name: Build Jekyll site
         run: bundle exec jekyll build
@@ -47,7 +47,7 @@ jobs:
       - name: List _site directory content
         run: ls -la _site/
       
-      - name: Upload artifact
+      - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v2
         with:
           path: _site/
