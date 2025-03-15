@@ -21,44 +21,42 @@ concurrency:
   group: "pages"
   cancel-in-progress: true
 
-jobs:
-  # Build job
-  build:
-    runs-on: ubuntu-latest
-    steps:
-      # Jekyll Picture Tag requires libvips libraries for resizing images, which must be installed
-      - name: Install JPT's dependencies
-        run: sudo apt-get install libvips-tools
-      - name: Checkout
-        uses: actions/checkout@v3
-      - name: Setup Ruby
-        uses: ruby/setup-ruby@v1
-        with:
-          ruby-version: 2.7.0
-      - name: Install Bundler
-        run: gem install bundler -v 2.4.15 --no-document
-      - name: Bundle Install
-        run: bundle install
-      - name: Setup Pages
-        id: pages
-        uses: actions/configure-pages@v1
-      - run: bundle exec jekyll build
-      - name: Upload artifact
-        uses: actions/upload-artifact@v4
-        with:
-          name: Jekyll site
-          path: _site
+# Build job
+build:
+  runs-on: ubuntu-latest
+  steps:
+    - name: Install JPT's dependencies
+      run: sudo apt-get install libvips-tools
+    - name: Checkout
+      uses: actions/checkout@v3
+    - name: Setup Ruby
+      uses: ruby/setup-ruby@v1
+      with:
+        ruby-version: 2.7.0
+    - name: Install Bundler
+      run: gem install bundler -v 2.4.15 --no-document
+    - name: Bundle Install
+      run: bundle install
+    - name: Setup Pages
+      id: pages
+      uses: actions/configure-pages@v1
+    - run: bundle exec jekyll build
+    - name: Upload artifact
+      uses: actions/upload-pages-artifact@v1
+      with:
+        name: jekyll-site # Ensure this name matches the artifact name
+        path: _site
 
-  # Deployment job
-  deploy:
-    needs: build
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    runs-on: ubuntu-latest
-    steps:
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v2
-        with:
-          artifact_name: Jekyll site
+# Deployment job
+deploy:
+  needs: build
+  environment:
+    name: github-pages
+    url: ${{ steps.deployment.outputs.page_url }}
+  runs-on: ubuntu-latest
+  steps:
+    - name: Deploy to GitHub Pages
+      id: deployment
+      uses: actions/deploy-pages@v2
+      with:
+        artifact_name: jekyll-site
