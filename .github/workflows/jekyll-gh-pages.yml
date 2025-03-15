@@ -41,7 +41,7 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: jekyll-site
-          path: _site
+          path: _site/
 
   deploy:
     needs: build
@@ -55,4 +55,3 @@ jobs:
         uses: actions/deploy-pages@v2
         with:
           artifact_name: jekyll-site
-          upload-url: ${{ steps.pages.outputs.upload_url }} 
