@@ -48,8 +48,9 @@ jobs:
         run: ls -la _site
         
       - name: Upload Pages artifact
-        uses: actions/upload-pages-artifact@v3
+        uses: actions/upload-artifact@v3
         with:
+          name: github-pages
           path: _site/
           
   deploy:
@@ -59,7 +60,12 @@ jobs:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
-      - name: List uploaded artifacts
+      - name: Download Pages artifact
+        uses: actions/download-artifact@v3
+        with:
+          name: github-pages
+        
+      - name: List downloaded artifacts
         run: ls -la ${{ github.workspace }}
         
       - name: List artifact directory
