@@ -17,12 +17,10 @@ Minimalist Jekyll app for personal websites and portfolios.
 - [Gulp](https://gulpjs.com/docs/en/getting-started/quick-start)
 - [libvips](https://github.com/libvips/libvips/wiki)
 
-## Getting Started
+## Run Docker container
 
-1.  `bundle install`
-2.  `npm install`
-3.  `npm start`
+```bash
+docker-compose up --build
+```
 
-### Build & deploy
-
-Inshallah [this workflow](/.github/workflows/jekyll-gh-pages.yml) will build and deploy on every commit to `main`.
+Development server will be running at `http://localhost:4000/`.
