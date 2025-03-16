@@ -62,6 +62,9 @@ jobs:
       - name: List uploaded artifacts
         run: ls -la ${{ github.workspace }}
         
+      - name: List artifact directory
+        run: ls -la _site
+        
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v3
