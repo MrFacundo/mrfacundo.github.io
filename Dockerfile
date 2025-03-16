@@ -1,5 +1,5 @@
 # Use an official Ruby runtime as a parent image
-FROM ruby:3.1
+FROM ruby:3.4.1
 
 # Install dependencies
 RUN apt-get update -qq && apt-get install -y build-essential libvips-tools nodejs npm
@@ -25,4 +25,4 @@ RUN npm install
 EXPOSE 4000
 
 # Command to run the application
-CMD ["bundle", "exec", "jekyll", "serve", "--host", "0.0.0.0"]
+CMD ["npm", "start"]

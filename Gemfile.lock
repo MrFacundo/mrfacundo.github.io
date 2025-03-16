@@ -119,19 +119,13 @@ PLATFORMS
   x86_64-linux
 
 DEPENDENCIES
-  bigdecimal (= 3.1.9)
   bundler
   csv
-  ffi (= 1.17.1)
-  google-protobuf (= 4.30.1)
   jekyll
   jekyll-minifier
-  jekyll-sass-converter (= 3.1.0)
   jekyll-sitemap
   jekyll_picture_tag (~> 2.0)
-  rake (= 13.2.1)
   sass
-  sass-embedded (= 1.85.1)
 
 BUNDLED WITH
    2.4.15
