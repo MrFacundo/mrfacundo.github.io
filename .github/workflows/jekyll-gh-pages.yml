@@ -53,6 +53,9 @@ jobs:
           name: github-pages
           path: _site/
           
+      - name: List available artifacts
+        run: curl -X GET https://api.github.com/repos/${{ github.repository }}/actions/artifacts
+
   deploy:
     needs: build
     runs-on: ubuntu-latest
