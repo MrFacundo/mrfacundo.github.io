@@ -80,4 +80,4 @@ jobs:
         uses: actions/deploy-pages@v3
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-          artifact_name: github-pages
+          artifact_path: _site  # Corrected parameter
