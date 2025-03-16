@@ -68,6 +68,9 @@ jobs:
       - name: List downloaded artifacts
         run: ls -la ${{ github.workspace }}
         
+      - name: Extract artifact
+        run: unzip github-pages.zip -d _site
+
       - name: List artifact directory
         run: ls -la _site
         
