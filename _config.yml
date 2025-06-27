@@ -4,13 +4,13 @@ title: Facundo Troitero | Full Stack Developer
 description: Full Stack Developer building things for the web 
 url: https://mrfacundo.github.io
 baseurl: ''
-email: ftroitero@gmail.com
+email: ftroitero@proton.me
 cover: https://mrfacundo.github.io/img/og.png
 logo: https://mrfacundo.github.io/img/emojis/technologist.png
 resume: https://mrfacundo.github.io/resume.pdf
 social:
   - title: email
-    url: mailto:ftroitero@gmail.com
+    url: mailto:ftroitero@proton.me
   - title: github
     url: https://github.com/MrFacundo
   - title: linkedin
